@@ -41,6 +41,10 @@ body {
   margin: 5px;
 }
 
+.lista li {
+  padding: 5px;
+}
+
 .lista a {
   text-decoration: none;
   color: #007bfc;
@@ -50,7 +54,7 @@ body {
 .copy {
   /* border: 4px solid chocolate; */
   /* margin: 5px; */
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 20px;
   background-color: #f3f3f3;
   color: #007bfc;

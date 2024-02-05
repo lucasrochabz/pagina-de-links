@@ -25,7 +25,7 @@ body {
 }
 
 .subtitulo {
-  color: #808080;
+  color: #4f4f4f;
   font-size: 1em;
   margin-bottom: 10px;
 }
@@ -46,6 +46,7 @@ body {
   background-color: #f3f3f3;
   text-decoration: none;
   color: #007bfc;
+  border-radius: 4px;
   /* border-left: 4px solid #007bfc; */
 }
 
@@ -56,4 +57,5 @@ body {
 .copy {
   margin-top: 30px;
   color: #007bfc;
+  font-weight: bold;
 }

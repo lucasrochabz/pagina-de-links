@@ -15,39 +15,37 @@ body {
 }
 
 .container {
-  width: 320px;
+  min-width: 320px;
+}
+
+.header {
+  margin-bottom: 20px;
 }
 
 .titulo {
   color: #222222;
   font-size: 2.25em;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .subtitulo {
   color: #4f4f4f;
   font-size: 1em;
-  margin-bottom: 10px;
-}
-
-.lista ul {
-  margin-top: 10px;
 }
 
 .lista li {
-  padding: 5px;
   list-style: none;
+  margin-bottom: 10px;
 }
 
 .lista a {
-  
-  display: block;
-  padding: 10px 0;
   background-color: #f3f3f3;
-  text-decoration: none;
   color: #007bfc;
+  display: block;
+  padding: 15px 0;
+  text-decoration: none;
   border-radius: 4px;
-  /* border-left: 4px solid #007bfc; */
+  margin: 0px 10px;
 }
 
 .lista a:hover {
@@ -55,7 +53,6 @@ body {
 }
 
 .copy {
-  margin-top: 30px;
   color: #007bfc;
-  font-weight: bold;
+  margin-top: 30px;
 }

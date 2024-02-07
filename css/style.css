@@ -23,14 +23,27 @@ body {
 }
 
 .titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #222222;
   font-size: 2.25em;
   margin-bottom: 5px;
 }
 
 .subtitulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #4f4f4f;
   font-size: 1em;
+}
+
+.subtitulo::after {
+  content: '';
+  height: 1px;
+  width: 15rem;
+  display: block;
+  background: #007bfc;
+  margin: 1rem auto;
+  text-align: center;
+  justify-content: center;
 }
 
 .lista li {

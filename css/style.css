@@ -21,11 +21,11 @@ body {
 .foto {
   width: 150px;
   height: 150px;
-  /* margin: auto; */
   margin-bottom: 20px;
   overflow: hidden;
-  /* border: 2px solid black; */
   border-radius: 5px;
+  /* margin: auto; */
+  /* border: 2px solid black; */
 }
 
 .foto img {
